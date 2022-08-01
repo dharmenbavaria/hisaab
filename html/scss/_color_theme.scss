@@ -1,0 +1,88 @@
+.green-theme{
+    .tabs-list{
+        .tabs{
+            background-color: $brandLightGreen2;
+        }
+    }
+    .income-content-box{
+        .date-box{
+            label{
+                color: $brandGreen;
+            }
+        }
+    }
+    .filter-icon{
+        a{
+            svg, svg path{
+                fill: $brandGreen;
+            }
+        }
+    }
+    .average-prices-box{
+        .col{
+            label{
+                color: $brandGreen;
+            }
+        }
+    }
+    .apexcharts-bar-series{
+        path, text{
+            fill: $brandGreen !important; 
+        }
+    }
+}
+
+
+
+.violet-theme{
+    .tabs-list{
+        .tabs{
+            background-color: $brandVioletLight;
+            li{
+                &.current
+                {
+                    color: $brandViolet;
+                    border-color: $brandViolet;
+                }
+            }
+        }
+    }
+    .income-content-box{
+        .date-box{
+            label{
+                color: $brandViolet;
+            }
+        }
+    }
+    .filter-icon{
+        a{
+            svg, svg path{
+                fill: $brandViolet;
+            }
+        }
+    }
+    .average-prices-box{
+        .col{
+            label{
+                color: $brandViolet;
+            }
+        }
+    }
+    .apexcharts-bar-series{
+        path, text{
+            fill: $brandViolet !important; 
+        }
+    }
+    .l-t-box{
+        .l-t-icon-text{
+            .l-t-icon{
+                background-color: $brandVioletLight;
+                color: $brandViolet;
+            }
+        }
+    }
+    .badge{
+        background-color: $brandVioletLight;
+        color: $brandViolet;
+    }
+}

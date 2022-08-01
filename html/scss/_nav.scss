@@ -1,0 +1,63 @@
+nav{
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    .close-btn{
+        display: none;
+    }
+    ul{
+        padding: 0px;
+        margin: 0px;
+        line-height: normal;
+        display: flex;
+        flex-wrap: wrap;
+        li{
+            display: inline-block;
+            list-style: none;
+            padding: 0px 10px;
+            border-right: 1px solid $brandTuatara;
+            line-height: 1.1em;
+            &::before{
+                display: none;
+            }
+            &:first-child{
+                padding-left: 0px;
+            }
+            &:last-child{
+                padding-right: 0px;
+                border-right: 0px;
+            }
+            a{
+                display: inline-block;
+                font-family: $default-font;
+                text-transform: uppercase;
+                color: $brandTuatara;
+                font-weight: $medium;
+                text-decoration: none;
+                font-size: 15px;
+                &:hover{
+                    color: $brandSoftOrange;
+                    text-decoration: none;
+                }
+                span{
+                    padding-right: 5px;
+                    @include breakpoint(md){
+                        padding-right: 10px;
+                    }
+                }
+            }
+            &.current-menu-item{
+                a{
+                    color: $brandSoftOrange;
+                }
+            }
+            &.show--onlyMob{
+                display: none;
+                @include breakpoint(md){
+                    display: block;
+                }
+            }
+        }
+    }
+}
