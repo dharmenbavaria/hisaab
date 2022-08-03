@@ -3,6 +3,10 @@ $(window).on('load resize',function(){
     $('.top-bar-spacer').height(headerHeight);
 });
 
+$(window).on('load resize',function(){
+    var headerHeight1 = $('.expense-fixed-box').outerHeight();
+    $('.position-fixed-spacer').css('padding-top', headerHeight1);
+});
 
 jQuery(document).ready(function(){
 

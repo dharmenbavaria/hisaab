@@ -86,3 +86,59 @@
         color: $brandViolet;
     }
 }
+
+
+.gray-theme{
+    .tabs-list{
+        .tabs{
+            background-color: $brandTuatara;
+            color: $brandGray90;
+            li{
+                border-color: $brandGray;
+                &.current
+                {
+                    color: $brandWhite;
+                    border-color: $brandAlizarin;
+                }
+            }
+        }
+    }
+    .income-content-box{
+        .date-box{
+            label{
+                color: $brandTuatara;
+            }
+        }
+    }
+    .filter-icon{
+        a{
+            svg, svg path{
+                fill: $brandTuatara;
+            }
+        }
+    }
+    .average-prices-box{
+        .col{
+            label{
+                color: $brandTuatara;
+            }
+        }
+    }
+    .apexcharts-bar-series{
+        path, text{
+            fill: $brandTuatara !important; 
+        }
+    }
+    .l-t-box{
+        .l-t-icon-text{
+            .l-t-icon{
+                background-color: $brandTuatara;
+                color: $brandTuatara;
+            }
+        }
+    }
+    .badge{
+        background-color: $brandTuatara;
+        color: $brandWhite;
+    }
+}

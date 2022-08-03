@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Logging In</title>
+<link href="css/all.min.css" rel="stylesheet">
+<link href="css/slick-theme.css" rel="stylesheet">
+<link href="css/slick.css" rel="stylesheet">
+<link href="css/apexcharts.css" rel="stylesheet">
+<link href="scss/style.css" rel="stylesheet">
+</head>
+<body class="gray-theme">
+
+<div class="top-bar-spacer"></div>
+<div class="top-bar pb-0">
+    <div class="default-lr-space d-flex justify-between align-center">
+        <div class="top-bar-left">
+            <a href="#" class="back-btn"><img src="images/arrow_back_icon.svg"></a>
+            <h3>Left to spend</h3>
+        </div>
+        <ul class="top-bar-right-menu">
+            <li><a href="#"><img src="images/bulleted_format_list_icon.svg"></a></li>
+        </ul>
+    </div>
+    <div class="tabs-list">
+        <ul class="tabs">
+            <li class="tab-link current" data-tab="month-1">1 Month</li>
+            <li class="tab-link" data-tab="month-6">6 Month</li>
+            <li class="tab-link" data-tab="month-12">12 Month</li>
+        </ul>
+    </div>
+</div>
+
+<div class="middle-content-block">
+
+    <div class="tab-panel-block">
+        <div class="tabs-content">
+            <div id="month-1" class="tab-content current">
+                <div class="default-full-box-style latest-tr-block income-content-box">
+                    <div class="date-box">
+                        <a href="#" class="np-angle prev-date"><img src="images/left_angle.svg"></a>
+                        <label>14 Apr - 12 May</label>
+                        <a href="#" class="np-angle next-date"><img src="images/right_angle.svg"></a>
+                    </div>
+                    <div class="left-to-spend-content total-this-period text-center">
+                        <h1><strong>€4,823.21</strong></h1>
+                        <p>2 days left</p>
+                        <span class="badge">&euro;2.760 more than previous period</span>
+                    </div>
+                </div>
+                <div class="chart-block">
+                    <div id="timeline-chart"></div>
+                </div>
+            </div>
+            <div id="month-6" class="tab-content">
+                <div class="default-lr-space filter-icon text-right">
+                    <a href="#"><svg viewBox="0 0 24 24" id="magicoon-Regular" xmlns="http://www.w3.org/2000/svg"><g id="filter-Regular"><path id="filter-Regular-2" fill="#9e128f" data-name="filter-Regular" class="cls-1" d="M18.5,2.25H5.5A2.252,2.252,0,0,0,3.25,4.5V6.586a1.736,1.736,0,0,0,.513,1.237l5.121,5.121a1.246,1.246,0,0,1,.366.885V21a.75.75,0,0,0,1.2.6l4-3a.75.75,0,0,0,.3-.6V13.829a1.246,1.246,0,0,1,.366-.885l5.121-5.121a1.736,1.736,0,0,0,.513-1.237V4.5A2.252,2.252,0,0,0,18.5,2.25Zm-13,1.5h13a.75.75,0,0,1,.75.75V6.25H4.75V4.5A.75.75,0,0,1,5.5,3.75Zm8.556,8.134a2.73,2.73,0,0,0-.806,1.945v3.8L10.75,19.5V13.829a2.73,2.73,0,0,0-.806-1.945L5.811,7.75H18.189Z"/></g></svg></a>
+                </div>
+                <div class="default-lr-space average-prices-box">
+                    <div class="col">
+                        <label>Average Per Month</label>
+                        <h1>&euro;5,941</h1>
+                        <p>total &euro;35,645</p>
+                    </div>
+                    <div class="col">
+                        <label>This Month</label>
+                        <h1>&euro;4,823</h1>
+                        <p>Still 2 days left</p>
+                    </div>
+                </div>
+                <div class="chart-block">
+                    <div id="average-month6-chart"></div>
+                </div>
+            </div>
+            <div id="month-12" class="tab-content">
+                <div class="default-lr-space filter-icon text-right">
+                    <a href="#"><svg viewBox="0 0 24 24" id="magicoon-Regular" xmlns="http://www.w3.org/2000/svg"><g id="filter-Regular"><path id="filter-Regular-2" fill="#9e128f" data-name="filter-Regular" class="cls-1" d="M18.5,2.25H5.5A2.252,2.252,0,0,0,3.25,4.5V6.586a1.736,1.736,0,0,0,.513,1.237l5.121,5.121a1.246,1.246,0,0,1,.366.885V21a.75.75,0,0,0,1.2.6l4-3a.75.75,0,0,0,.3-.6V13.829a1.246,1.246,0,0,1,.366-.885l5.121-5.121a1.736,1.736,0,0,0,.513-1.237V4.5A2.252,2.252,0,0,0,18.5,2.25Zm-13,1.5h13a.75.75,0,0,1,.75.75V6.25H4.75V4.5A.75.75,0,0,1,5.5,3.75Zm8.556,8.134a2.73,2.73,0,0,0-.806,1.945v3.8L10.75,19.5V13.829a2.73,2.73,0,0,0-.806-1.945L5.811,7.75H18.189Z"/></g></svg></a>
+                </div>
+                <div class="default-lr-space average-prices-box">
+                    <div class="col">
+                        <label>Average Per Month</label>
+                        <h1>&euro;5,941</h1>
+                        <p>total &euro;35,645</p>
+                    </div>
+                    <div class="col">
+                        <label>This Month</label>
+                        <h1>&euro;4,823</h1>
+                        <p>Still 2 days left</p>
+                    </div>
+                </div>
+                <div class="chart-block">
+                    <div id="average-month12-chart"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/apexcharts.min.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/charts_custom.js"></script>
+</body>
+</html>

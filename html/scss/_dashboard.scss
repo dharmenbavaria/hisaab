@@ -257,7 +257,7 @@
         background-color: $brandViolet;
     }
     &.darkgray-btn{
-        background-color: $brandGray;
+        background-color: $brandTuatara;
     }
     &.lightpink-btn{
         background-color: $brandLightPink;
@@ -600,6 +600,17 @@
     }
 }
 
+.left-to-spend-content{
+    padding-bottom: 20px;
+    h1{
+        margin: 0 0 5px;
+    }
+    .badge{
+        padding: 5px 15px;
+        border-radius: 5px;
+    }
+}
+
 .pink-theme{
     .tab-panel-block{
         .tabs-list{
@@ -662,4 +673,24 @@
 
 .chart-block{
     margin-top: 30px;
+}
+.expense-fixed-box{
+    position: fixed;
+    top: 136px;
+    padding-top: 40px;
+    width: calc(100% - 40px);
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 1;
+    background-color: $brandWhite;
+}
+.fixed-block{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.fixed-block-spacer{
+    position: relative;
 }

@@ -492,7 +492,7 @@ select {
 }
 
 .custom-control .custom-control-label::before {
-  border: 1px solid #636466;
+  border: 1px solid #636363;
   background-color: #ffffff;
   width: 18px;
   height: 18px;
@@ -534,25 +534,25 @@ select {
 }
 
 ::-webkit-input-placeholder {
-  color: #636466;
+  color: #636363;
   font-family: "Open Sans", sans-serif;
   opacity: 1;
 }
 
 ::-moz-placeholder {
-  color: #636466;
+  color: #636363;
   font-family: "Open Sans", sans-serif;
   opacity: 1;
 }
 
 :-ms-input-placeholder {
-  color: #636466;
+  color: #636363;
   font-family: "Open Sans", sans-serif;
   opacity: 1;
 }
 
 :-moz-placeholder {
-  color: #636466;
+  color: #636363;
   font-family: "Open Sans", sans-serif;
   opacity: 1;
 }
@@ -790,7 +790,7 @@ nav ul li {
   display: inline-block;
   list-style: none;
   padding: 0px 10px;
-  border-right: 1px solid #2f2f2b;
+  border-right: 1px solid #22384d;
   line-height: 1.1em;
 }
 
@@ -811,7 +811,7 @@ nav ul li a {
   display: inline-block;
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
-  color: #2f2f2b;
+  color: #22384d;
   font-weight: 500;
   text-decoration: none;
   font-size: 15px;
@@ -1261,30 +1261,30 @@ nav ul li.show--onlyMob {
 }
 
 .button-style.darkgray-btn {
-  background-color: #636466;
+  background-color: #22384d;
 }
 
 .button-style.lightpink-btn {
   background-color: #fdecfb;
-  color: #2f2f2b;
+  color: #22384d;
   background-image: url("../images/right_angle.svg");
 }
 
 .button-style.lightgreen-btn {
   background-color: #e0f2ed;
-  color: #2f2f2b;
+  color: #22384d;
   background-image: url("../images/right_angle.svg");
 }
 
 .button-style.lightyellow-btn {
   background-color: #fff3dd;
-  color: #2f2f2b;
+  color: #22384d;
   background-image: url("../images/right_angle.svg");
 }
 
 .button-style.lightviolet-btn {
   background-color: #e2e3ff;
-  color: #2f2f2b;
+  color: #22384d;
   background-image: url("../images/right_angle.svg");
 }
 
@@ -1690,6 +1690,19 @@ nav ul li.show--onlyMob {
   margin: 0;
 }
 
+.left-to-spend-content {
+  padding-bottom: 20px;
+}
+
+.left-to-spend-content h1 {
+  margin: 0 0 5px;
+}
+
+.left-to-spend-content .badge {
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
 .pink-theme .tab-panel-block .tabs-list .tabs {
   background-color: #fdecfb;
 }
@@ -1756,6 +1769,29 @@ nav ul li.show--onlyMob {
   margin-top: 30px;
 }
 
+.expense-fixed-box {
+  position: fixed;
+  top: 136px;
+  padding-top: 40px;
+  width: calc(100% - 40px);
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 1;
+  background-color: #ffffff;
+}
+
+.fixed-block {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.fixed-block-spacer {
+  position: relative;
+}
+
 .green-theme .tabs-list .tabs {
   background-color: #e0f2ed;
 }
@@ -1809,5 +1845,45 @@ nav ul li.show--onlyMob {
 .violet-theme .badge {
   background-color: #e2e3ff;
   color: #7b81d5;
+}
+
+.gray-theme .tabs-list .tabs {
+  background-color: #22384d;
+  color: #e5e5e5;
+}
+
+.gray-theme .tabs-list .tabs li {
+  border-color: #636363;
+}
+
+.gray-theme .tabs-list .tabs li.current {
+  color: #ffffff;
+  border-color: #d4850e;
+}
+
+.gray-theme .income-content-box .date-box label {
+  color: #22384d;
+}
+
+.gray-theme .filter-icon a svg, .gray-theme .filter-icon a svg path {
+  fill: #22384d;
+}
+
+.gray-theme .average-prices-box .col label {
+  color: #22384d;
+}
+
+.gray-theme .apexcharts-bar-series path, .gray-theme .apexcharts-bar-series text {
+  fill: #22384d !important;
+}
+
+.gray-theme .l-t-box .l-t-icon-text .l-t-icon {
+  background-color: #22384d;
+  color: #22384d;
+}
+
+.gray-theme .badge {
+  background-color: #22384d;
+  color: #ffffff;
 }
 /*# sourceMappingURL=style.css.map */
