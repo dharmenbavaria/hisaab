@@ -759,6 +759,82 @@ select {
   text-align: center;
 }
 
+.black-bg {
+  background-color: #000000;
+}
+
+.font-13 {
+  font-size: 13px;
+}
+
+.text-gray {
+  color: #636363;
+}
+
+.font-w600 {
+  font-weight: 600;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.pt-10 {
+  padding-top: 10px;
+}
+
+.pt-20 {
+  padding-top: 20px;
+}
+
+.pt-30 {
+  padding-top: 30px;
+}
+
+.pb-10 {
+  padding-bottom: 10px;
+}
+
+.pb-20 {
+  padding-bottom: 20px;
+}
+
+.pb-30 {
+  padding-bottom: 30px;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+.p-30 {
+  padding: 30px;
+}
+
 nav {
   width: auto;
   display: -webkit-box;
@@ -1885,5 +1961,91 @@ nav ul li.show--onlyMob {
 .gray-theme .badge {
   background-color: #22384d;
   color: #ffffff;
+}
+
+.tip-box {
+  width: 100%;
+  background-color: #222222;
+  border-radius: 7px;
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.tip-box .tip-two-col {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.tip-box .tip-two-col .tip-content {
+  padding-left: 20px;
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.tip-box .tip-two-col .tip-content label {
+  font-size: 13px;
+  font-weight: 500;
+  color: #23c8e1;
+  display: block;
+  line-height: 1;
+  margin-bottom: 5px;
+}
+
+.tip-box .link-text {
+  margin-top: 20px;
+  display: inline-block;
+  color: #23c8e1;
+}
+
+.subscription-list-block {
+  width: 100%;
+}
+
+.subs-date-price {
+  width: 100%;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #222222;
+  color: #ffffff;
+}
+
+.subs-date-price p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.subs-list-box {
+  width: 100%;
+}
+
+.subs-list-box .subs-list-icon {
+  width: 50px;
+}
+
+.subs-list-box .subs-list-icon img {
+  width: 35px;
+}
+
+.subs-list-box .subs-list-content {
+  width: calc(100% - 50px);
+  padding: 20px 0px;
+  color: #ffffff;
+  border-bottom: 1px solid #222222;
+}
+
+.subs-list-box .subs-list-content .sc-right {
+  text-align: right;
+}
+
+.subs-list-box .subs-list-content .sc-right p {
+  font-weight: 500;
+  margin: 0;
+}
+
+.subs-list-box .subs-list-content .sc-right label {
+  color: #acacac;
 }
 /*# sourceMappingURL=style.css.map */

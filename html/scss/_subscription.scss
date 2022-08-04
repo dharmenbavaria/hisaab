@@ -1,0 +1,70 @@
+.tip-box{
+    width: 100%;
+    background-color: $brandDefaultBlack;
+    border-radius: 7px;
+    color: $brandWhite;
+    font-size: 15px;
+    .tip-two-col{
+        width: 100%;
+        display: flex;
+        padding-bottom: 10px;
+        .tip-content{
+            padding-left: 20px;
+            color: $brandWhite;
+            font-size: 15px;
+            label{
+                font-size: 13px;
+                font-weight: 500;
+                color: $brandsky;
+                display: block;
+                line-height: 1;
+                margin-bottom: 5px;
+            }
+        }
+    }
+    .link-text{
+        margin-top: 20px;
+        display: inline-block;
+        color: $brandsky;
+    }
+}
+
+.subscription-list-block{
+    width: 100%;
+}
+.subs-date-price{
+    width: 100%;
+    padding-bottom: 15px;
+    border-bottom: 1px solid $brandDefaultBlack;
+    color: $brandWhite;
+    p{
+        margin: 0;
+        font-size: 18px;
+        font-weight: 700;
+    }
+}
+.subs-list-box{
+    width: 100%;
+    .subs-list-icon{
+        width: 50px;
+        img{
+            width: 35px;
+        }
+    }
+    .subs-list-content{
+        width: calc(100% - 50px);
+        padding: 20px 0px;
+        color: $brandWhite;
+        border-bottom: 1px solid $brandDefaultBlack;
+        .sc-right{
+            text-align: right;
+            p{
+                font-weight: 500;
+                margin: 0;
+            }
+            label{
+                color: $brandDarkGray;
+            }
+        }
+    }
+}
