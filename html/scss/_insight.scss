@@ -1,0 +1,46 @@
+.tab-style-2{
+    .tabs{
+        li{
+            width: 50%;
+            text-transform: uppercase;
+        }
+    }
+}
+
+.insight-box{
+    width: 100%;
+    border-radius: 7px;
+    box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.1);
+    .insight-content-box-with-bg{
+        width: 100%;
+        padding: 20px;
+        background-image: url('../images/flat.jpg');
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        z-index: 1;
+        &::before{
+            position: absolute;
+            content: '';
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(255,255,255,0.5);
+            z-index: -1;
+        }
+        h5{
+            margin: 0 0 5px 0;
+        }
+        p{
+            margin: 0;
+        }
+    }
+    .insight-inline-links{
+        width: 100%;
+        padding: 20px;
+        .link-text{
+            margin-right: 15px;
+        }
+    }
+}
