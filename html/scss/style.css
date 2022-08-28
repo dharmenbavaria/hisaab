@@ -2059,6 +2059,47 @@ nav ul li.show--onlyMob {
   border-radius: 7px;
   -webkit-box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.insight-box .insight-content-box {
+  width: 100%;
+  padding: 20px;
+  padding-bottom: 0;
+}
+
+.insight-box h5 {
+  margin: 0 0 5px 0;
+}
+
+.insight-box p {
+  margin: 0;
+}
+
+.insight-box label {
+  font-size: 14px;
+}
+
+.insight-box .animated-progress {
+  margin-top: 14px;
+}
+
+.insight-box .insight-subs-tool-box {
+  padding: 20px;
+}
+
+.insight-box .insight-subs-tool-box .ins-sub-left-box {
+  width: calc(100% - 120px);
+}
+
+.insight-box .insight-subs-tool-box .ins-sub-right-box {
+  width: 120px;
+  padding-left: 15px;
+}
+
+.insight-box .insight-subs-tool-box p {
+  font-size: 13px;
+  margin-bottom: 15px;
 }
 
 .insight-box .insight-content-box-with-bg {
@@ -2080,14 +2121,6 @@ nav ul li.show--onlyMob {
   bottom: 0;
   background-color: rgba(255, 255, 255, 0.5);
   z-index: -1;
-}
-
-.insight-box .insight-content-box-with-bg h5 {
-  margin: 0 0 5px 0;
-}
-
-.insight-box .insight-content-box-with-bg p {
-  margin: 0;
 }
 
 .insight-box .insight-inline-links {
