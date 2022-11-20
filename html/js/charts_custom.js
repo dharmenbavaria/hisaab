@@ -225,3 +225,34 @@ function generateDayWiseTimeSeries(s, count) {
   }
   return series;
 }
+
+
+// LOOK AHEAD
+
+var options = {
+  series: [{
+  data: [34, 44, 54, 21, 12, 43, 33, 23, 66, 66, 58]
+}],
+  chart: {
+  type: 'line',
+  height: 350
+},
+stroke: {
+  curve: 'stepline',
+},
+dataLabels: {
+  enabled: false
+},
+title: {
+  text: '',
+  align: 'left'
+},
+markers: {
+  hover: {
+    sizeOffset: 4
+  }
+}
+};
+
+var chart = new ApexCharts(document.querySelector("#look-chart"), options);
+chart.render();

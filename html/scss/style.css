@@ -2089,12 +2089,12 @@ nav ul li.show--onlyMob {
 }
 
 .insight-box .insight-subs-tool-box .ins-sub-left-box {
-  width: calc(100% - 120px);
+  width: calc(100% - 100px);
 }
 
 .insight-box .insight-subs-tool-box .ins-sub-right-box {
-  width: 120px;
-  padding-left: 15px;
+  width: 100px;
+  padding-left: 10px;
 }
 
 .insight-box .insight-subs-tool-box p {
@@ -2130,5 +2130,113 @@ nav ul li.show--onlyMob {
 
 .insight-box .insight-inline-links .link-text {
   margin-right: 15px;
+}
+
+.look_ahead_block .expenses-box {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 0px;
+  border-bottom: 1px solid #222222;
+}
+
+.look_ahead_block .expenses-box .expense-content-box {
+  width: auto;
+  color: #ffffff;
+  display: inline-block;
+  border: 0;
+}
+
+.look_ahead_block .expenses-box .expense-content-box .expense-content {
+  width: auto;
+  color: #ffffff;
+  display: inline-block;
+}
+
+.look_ahead_block .total-this-period {
+  color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.look_ahead_block .total-this-period p {
+  margin-bottom: 5px;
+}
+
+.exp-transac {
+  width: 100%;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+.exp-transac h5 {
+  margin-bottom: 5px;
+}
+
+.exp-transac p {
+  font-size: 13px;
+  color: #acacac;
+}
+
+.transaction-lists .transaction-list-box {
+  border-top: 1px solid #222222;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+.transaction-lists .transaction-list-box:last-child {
+  border-bottom: 1px solid #222222;
+}
+
+.transaction-lists .transaction-list-box label {
+  font-size: 14px;
+  color: #636363;
+}
+
+.transaction-lists .subs-list-box .subs-list-content {
+  border: 0;
+}
+
+.la-tabs {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.la-tabs ul {
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.la-tabs ul li {
+  padding: 0 4px;
+  margin: 0;
+  list-style: none;
+}
+
+.la-tabs ul li::before {
+  display: none;
+}
+
+.la-tabs ul li a {
+  width: auto;
+  padding: 3px 7px;
+  border: 1px solid #009187;
+  font-size: 13px;
+  color: #ffffff;
+  border-radius: 3px;
+}
+
+.la-tabs ul li.active a {
+  background-color: #009187;
 }
 /*# sourceMappingURL=style.css.map */
