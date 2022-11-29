@@ -2267,17 +2267,19 @@ nav ul li.show--onlyMob {
 }
 
 .qa__block .qa_card_block {
-  width: 100%;
+  width: 90%;
   padding: 20px;
-  position: relative;
+  position: absolute;
   background-color: #ffffff;
   border-radius: 4px;
   -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
   left: 0;
   right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
   margin: auto;
-  margin-top: 12vh;
   z-index: 1;
 }
 
@@ -2390,39 +2392,40 @@ nav ul li.show--onlyMob {
   display: none;
 }
 
-#lang-a {
+.lang-a {
   padding-left: 0px;
 }
 
-#lang-a img, .lang-btn-select img {
+.lang-a img, .lang-btn-select img {
   width: 32px;
   max-height: 32px;
 }
 
-#lang-a li {
+.lang-a li {
   list-style: none;
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 14px;
+  cursor: pointer;
 }
 
-#lang-a li:before {
+.lang-a li:before {
   display: none;
 }
 
-#lang-a li img {
+.lang-a li img {
   margin: 4px;
 }
 
-#lang-a li span, .lang-btn-select li span {
+.lang-a li span, .lang-btn-select li span {
   margin-left: 15px;
 }
 
 /* item list */
 .lang-b {
   display: none;
-  width: 90%;
-  max-width: 90%;
+  width: 101%;
+  max-width: 100%;
   -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
           box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   border-radius: 5px;
@@ -2455,6 +2458,7 @@ nav ul li.show--onlyMob {
   background-color: #fff;
   border: 0px;
   padding: 10px 0;
+  cursor: pointer;
 }
 
 .lang-btn-select li {
