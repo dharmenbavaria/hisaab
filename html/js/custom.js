@@ -126,4 +126,9 @@ $(window).on('load', function(){
             $(this).parent('.lang-select').find('.lang-b').fadeIn();
         });
     });
+
+    
+    $('#demo-htmlselect').ddslick({
+        onSelected: function(selectedData){}   
+    });
 });
